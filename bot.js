@@ -25,4 +25,10 @@ bot.on('message', message =>{
     }
 });
 
+if(msg === prefix + "Hii" && message.channel.id === "381397780385628181"){
+message.channel.send("Hey, Welcome to the server ")
+            }
+
+
+
 bot.login(process.env.BOT_TOKEN)
